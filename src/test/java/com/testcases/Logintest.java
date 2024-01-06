@@ -36,7 +36,7 @@ public class Logintest extends Testbase {
 
 	public void tearDown() {
 
-		//driver.close();
+		driver.close();
 	}
 
 }

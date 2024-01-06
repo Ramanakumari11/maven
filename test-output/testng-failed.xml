@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="Setup"/>
-          <include name="verifyLogin1" invocation-numbers="0 1"/>
+          <include name="verifyLogin1"/>
         </methods>
       </class> <!-- com.testcases.Loginpage -->
     </classes>

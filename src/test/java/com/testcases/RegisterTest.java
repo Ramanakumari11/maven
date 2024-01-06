@@ -1,6 +1,7 @@
 package com.testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -52,5 +53,10 @@ public class RegisterTest extends Testbase {
 		Assert.assertEquals("https://e-quarz.com/", homepage_url);
 
 	}
+	@AfterMethod
+	public void teardown()  {
 
+   driver.close();
+   
+	}
 }
