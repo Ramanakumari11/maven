@@ -62,7 +62,38 @@ public class Loginpage extends Testbase {
 
   		Assert.assertNotEquals("https://e-quarz.com/", homepageurl);
   	}
+   
+   @Test
+	public void forgotPasswordEnable() {
+		boolean forgotPassPresence=login.forgotPassword.isEnabled();
+		Assert.assertEquals(true, forgotPassPresence);
+		
+	}
+	
+	
+	@Test
+   public void verifyForgotPassword() {
+		login.forgotPass();
+		String url=driver.getCurrentUrl();
+		Assert.assertEquals("https://e-quarz.com/customer/auth/recover-password", url);
+	}
+	
+	
+	@Test
+	public void verifyRememberme() {
+		login.remember_me();	
+		Assert.assertEquals(true, Utils.isElementSelected(login.rememberMe));
+	}
+	
+	@Test
+	public void verifySignUp() {
+		login.signup_button();
+		String url=driver.getCurrentUrl();
+		Assert.assertEquals("https://e-quarz.com/customer/auth/sign-up", url);
+	}
+	
 
+	
 	@AfterMethod
 
 	public void tearDown() {
