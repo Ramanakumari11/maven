@@ -28,8 +28,8 @@ public class SearchFunctionality {
         
     	for(int i=0;i<text.length();i++) {
 			searchBar.sendKeys(""+text.charAt(i));
-		}
-        
+	}
+      
     Thread.sleep(1000);
     }
     public List<WebElement> getautosuggestedproducts() {
@@ -37,23 +37,13 @@ public class SearchFunctionality {
      return  listItems;  
         }
     
-    public List<String> getAllProductsContainingText(List<WebElement> listItems1) throws InterruptedException {
-      
-        List<String> products =new ArrayList<>();
-       
-        for(WebElement listItem: listItems1){
-            if(!listItem.getText().isEmpty()) {
-                products.add(listItem.getText());
-            }
-        }
-        return products;
-    }
+		
 
-    public List<String> getInvalidProducts(List<String> products, String textToSearch) {
+    public List<String> getInvalidProducts(List<WebElement> products, String textToSearch) {
         List<String> invalidProducts = new ArrayList<>();
-        for(String product:products){
-            if(!product.contains(textToSearch)){
-                invalidProducts.add(product);
+        for(WebElement product:products){
+            if(!product.getText().contains(textToSearch)){
+                invalidProducts.add(product.getText());
             }
         }
         return invalidProducts;

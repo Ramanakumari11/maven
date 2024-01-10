@@ -5,8 +5,8 @@
     <classes>
       <class name="com.testcases.SearchTest">
         <methods>
-          <include name="verify_SelectedProductAndOpenedProductMatches"/>
           <include name="teardown"/>
+          <include name="verify_AutoSuggestionList"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.testcases.SearchTest -->

@@ -51,7 +51,7 @@ public class Testbase {
 			//System.setProperty("webdriver.chrome.driver","C:\\Users\\Jakkam Sairam\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
 			
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			driver = new ChromeDriver();    //object creation
 
 		}
 

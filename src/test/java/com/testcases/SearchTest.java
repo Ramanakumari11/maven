@@ -25,7 +25,7 @@ public class SearchTest extends Testbase {
     public void verify_AutoSuggestionList() throws InterruptedException {
         search.searchProduct(textToSearch);
         Thread.sleep(1000);
-        List<String> products = search.getAllProductsContainingText(search.getautosuggestedproducts());
+        List<WebElement> products = search.getautosuggestedproducts();
         List<String> invalidProducts = search.getInvalidProducts(products,textToSearch);
         Assert.assertTrue(invalidProducts.isEmpty(),"Invalid products doesn't contain the searched text: "+invalidProducts.toString());
     }
@@ -44,6 +44,9 @@ public class SearchTest extends Testbase {
         Assert.assertTrue(selectedProductName.contains(searchText),selectedProductName+"notcontains"+searchText);
        }
     }
+    
+    
+  
     @AfterMethod
     public void teardown()  {
 
