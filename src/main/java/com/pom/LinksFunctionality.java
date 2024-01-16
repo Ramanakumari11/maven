@@ -17,37 +17,12 @@ public class LinksFunctionality extends Testbase{
 	@FindBy(xpath = "//div[@class='col-md-4 footer-padding-bottom']//li/a")
 	List<WebElement> AcountWebElements ;
 	
-	/*
-	 * @FindBy(xpath =
-	 * "//a[@class='social-btn text-white sb-light sb-twitter mr-2 mb-2']")
-	 * WebElement twitter ;
-	 * 
-	 * @FindBy(xpath = "//i[@class='fa fa-linkedin']") WebElement linkdin ;
-	 * 
-	 * @FindBy(xpath = "//i[@class='fa fa-google-plus-square']") WebElement google ;
-	 * 
-	 * @FindBy(xpath =
-	 * "//a[@class='social-btn text-white sb-light sb-pinterest mr-2 mb-2']")
-	 * WebElement pinterest ;
-	 * 
-	 * @FindBy(xpath =
-	 * "//a[@class='social-btn text-white sb-light sb-instagram mr-2 mb-2']")
-	 * WebElement instagram ;
-	 * 
-	 * @FindBy(xpath = "//i[@class='fa fa-facebook\']") WebElement facebook ;
-	 */
+	
 	@FindBy(xpath = "//div[@class='mt-md-3 mt-0 mb-md-3 text-left']//span/a/i")
 	List<WebElement> socialMediaButtons ;
 	
 	@FindBy(xpath = "//div[@class='col-md-3 footer-web-logo']")
 	WebElement Equarzlogo ;
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	public LinksFunctionality(WebDriver driver) {
@@ -84,8 +59,8 @@ public class LinksFunctionality extends Testbase{
 		return property;
 	}
 	
+}	
 	
 	
 	
-	
-}
+
