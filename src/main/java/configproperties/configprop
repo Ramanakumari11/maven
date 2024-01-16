@@ -4,3 +4,26 @@ url=https://e-quarz.com/customer/auth/login
 
 username=ramanakumari@gmail.com
 password=123456789
+
+twitter=https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den-in
+facebook=https://www.facebook.com/
+instagram=https://www.instagram.com/?hl=en
+linkedin=https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fmarolix-technology%2Fabout%2F
+google-plus-square=https://www.marolix.com/
+pinterest=https://www.pinterest.com/pinterest/
+
+Featured\ Products=https://e-quarz.com/products?data_from=featured&page=1
+Latest\ Products=https://e-quarz.com/products?data_from=latest&page=1
+Best\ Selling\ Products=https://e-quarz.com/products?data_from=best-selling&page=1
+Top\ Rated\ Products=https://e-quarz.com/products?data_from=top-rated&page=1
+
+
+Profile\ Info=https://e-quarz.com/user-account
+Track\ Order=https://e-quarz.com/track-order
+Refund\ Policy=https://e-quarz.com/refund-policy
+Return\ Policy=https://e-quarz.com/return-policy
+Cancellation\ Policy=https://e-quarz.com/cancellation-policy
+Equarzlogo=https://e-quarz.com/
+
+Privacy Policy=http://e-quarz.com/privacy-policy
+Terms & Conditions=http://e-quarz.com/terms

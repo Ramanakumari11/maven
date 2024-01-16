@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[fa fa-twitter]]>
+    </line>
+    <line>
+      <![CDATA[fa fa-linkedin]]>
+    </line>
+    <line>
+      <![CDATA[fa fa-google-plus-square]]>
+    </line>
+    <line>
+      <![CDATA[fa fa-pinterest]]>
+    </line>
+    <line>
+      <![CDATA[fa fa-instagram]]>
+    </line>
+    <line>
+      <![CDATA[fa fa-facebook]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-01-10T11:44:58 IST" name="Default suite" finished-at="2024-01-10T11:45:19 IST" duration-ms="21035">
+  <suite started-at="2024-01-16T11:42:20 IST" name="Default suite" finished-at="2024-01-16T11:44:59 IST" duration-ms="158673">
     <groups>
     </groups>
-    <test started-at="2024-01-10T11:44:58 IST" name="Default test" finished-at="2024-01-10T11:45:19 IST" duration-ms="21035">
-      <class name="com.testcases.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:44:58 IST" name="setup" finished-at="2024-01-10T11:45:06 IST" duration-ms="8161" status="PASS">
+    <test started-at="2024-01-16T11:42:20 IST" name="Default test" finished-at="2024-01-16T11:44:59 IST" duration-ms="158673">
+      <class name="com.testcases.LinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:42:21 IST" name="setup" finished-at="2024-01-16T11:42:41 IST" duration-ms="20533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_AutoSuggestionList()[pri:1, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:45:06 IST" name="verify_AutoSuggestionList" finished-at="2024-01-10T11:45:09 IST" duration-ms="2877" status="PASS">
+        <test-method signature="verifySpecialLinks()[pri:1, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:42:41 IST" name="verifySpecialLinks" finished-at="2024-01-16T11:43:03 IST" duration-ms="21469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_AutoSuggestionList -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:45:09 IST" name="teardown" finished-at="2024-01-10T11:45:09 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- verifySpecialLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:03 IST" name="tearDown" finished-at="2024-01-16T11:43:03 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:45:09 IST" name="setup" finished-at="2024-01-10T11:45:15 IST" duration-ms="5178" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:03 IST" name="setup" finished-at="2024-01-16T11:43:21 IST" duration-ms="17380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_SelectedProductAndOpenedProductMatches()[pri:2, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:45:15 IST" name="verify_SelectedProductAndOpenedProductMatches" finished-at="2024-01-10T11:45:19 IST" duration-ms="4360" status="PASS">
+        <test-method signature="verifyAccountLinks()[pri:2, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:21 IST" name="verifyAccountLinks" finished-at="2024-01-16T11:43:39 IST" duration-ms="18465" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_SelectedProductAndOpenedProductMatches -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.SearchTest@1a482e36]" started-at="2024-01-10T11:45:19 IST" name="teardown" finished-at="2024-01-10T11:45:19 IST" duration-ms="141" status="PASS">
+        </test-method> <!-- verifyAccountLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:39 IST" name="tearDown" finished-at="2024-01-16T11:43:40 IST" duration-ms="526" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.testcases.SearchTest -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:40 IST" name="setup" finished-at="2024-01-16T11:43:57 IST" duration-ms="17851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysocialMediaLinks()[pri:3, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:43:57 IST" name="verifysocialMediaLinks" finished-at="2024-01-16T11:44:58 IST" duration-ms="60864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[fa fa-twitter]]>
+            </line>
+            <line>
+              <![CDATA[fa fa-linkedin]]>
+            </line>
+            <line>
+              <![CDATA[fa fa-google-plus-square]]>
+            </line>
+            <line>
+              <![CDATA[fa fa-pinterest]]>
+            </line>
+            <line>
+              <![CDATA[fa fa-instagram]]>
+            </line>
+            <line>
+              <![CDATA[fa fa-facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifysocialMediaLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LinksTest@72967906]" started-at="2024-01-16T11:44:58 IST" name="tearDown" finished-at="2024-01-16T11:44:59 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LinksTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
